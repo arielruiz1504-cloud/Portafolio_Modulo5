@@ -23,3 +23,11 @@ Tecnologías utilizadas
 Nota.
 
 - Ingresa con un correo válido (@) y la contraseña "1234"
+
+Autor
+- Nombre: ARIEL RUIZ AHUMADA
+- Módulo: Desarrollo Frontend - Módulo 5
+
+Repositorio y Despliegue
+- URL GitHub:
+- URL GitHub Pages: https://arielruiz1504-cloud.github.io/Portafolio_Modulo5/
