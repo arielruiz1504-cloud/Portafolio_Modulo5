@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es_CL">
+<head>
+    <meta charset="UTF-8">
+    <title>App Bursatil - Iniciar Sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="seccionLogin" class="caja">
+            <h2>Acceso al Panel Bursátil</h2>
+            <input type="email" id="emailUsuario" placeholder="Correo (ej: usuario@mail.com)">
+            <input type="password" id="passUsuario" placeholder="Contraseña (1234)">
+            <button type="button" onclick="app.iniciarSesion()">Ingresar</button>
+        </div>
+
+        <div id="seccionBursatil" class="caja" style="display: none;">
+            <h2 id="mensajeBienvenida"></h2>
+            <hr>
+            <h3>Consulta tus Activos</h3>
+            <div class="controles">
+                <button onclick="app.fetchData('dolar')">Dólar</button>
+                <button onclick="app.fetchData('uf')">UF</button>
+                <button onclick="app.fetchData('euro')">Euro</button>
+                <button onclick="app.fetchData('ipc')">IPC</button>
+            </div>
+        
+            <div id="resultadoCotizacion"></div>
+            <hr>
+            <h3>Últimas consultas</h3>
+            <div id="listaHistorial"></div>
+            
+            <br>
+            <button type="button" onclick="app.cerrarSesion()" class="botonRojo">Cerrar Sesión</button>
+        </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
