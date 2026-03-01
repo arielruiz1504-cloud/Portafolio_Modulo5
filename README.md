@@ -29,5 +29,5 @@ Autor
 - Módulo: Desarrollo Frontend - Módulo 5
 
 Repositorio y Despliegue
-- URL GitHub:
+- URL GitHub: https://github.com/arielruiz1504-cloud/Portafolio_Modulo5.git
 - URL GitHub Pages: https://arielruiz1504-cloud.github.io/Portafolio_Modulo5/
